@@ -1,5 +1,4 @@
 # Montag
-# Docker
 
 ---
 
@@ -8,6 +7,8 @@
 [Git and Github](#git-and-github)
 
 [Tools](#tools)
+
+[Specific to tomn](#Tomn)
 
 ---
 
@@ -183,6 +184,26 @@ git pull origin master
 ---
 
 ## Tools
+
+
+```bash
+cd New-Project-Template
+
+```
+
+```bash
+/usr/bin/open -a /System/Library/CoreServices/Finder.app .
+
+```
+
+```bash
+"/Applications/NetBeans/Apache NetBeans 11.1.app/Contents/Resources/NetBeans/bin/netbeans" README.md
+
+```
+
+---
+
+## Tomn
 
 
 ```bash
