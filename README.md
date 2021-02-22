@@ -8,7 +8,7 @@
 
 [Tools](#tools)
 
-[Specific to tomn](#Tomn)
+[Specific to tomn](#tomn)
 
 ---
 
@@ -173,7 +173,7 @@ cd New-Project-Template
 
 ---
 
-## Tomn
+## tomn
 
 
 ```bash
