@@ -42,16 +42,6 @@ docker stop $(docker ps -aq) && docker rm $(docker ps -aq)
 ```
 
 ```bash
-docker image build -t tomnoland/servlet-admin ./
-
-```
-
-```bash
-docker container run -it -d --publish 8081:8080 --name my-tomcat-container tomnoland/servlet-admin:latest
-
-```
-
-```bash
 docker exec -it my-tomcat-container /bin/sh
 docker rmi -f $(docker images -a -q)
 ```
@@ -76,34 +66,6 @@ docker rmi -f $(docker images -a -q)
 
 ```
 
----
-
-## Tomcat
-
-```bash
-WARFILE=
-
-```
-
-```bash
-cp $WARFILE /usr/local/apache-tomcat-8.5.51/webapps/ROOT.war
-
-```
-
-```bash
-/usr/bin/open -a /System/Library/CoreServices/Finder.app /usr/local/apache-tomcat-8.5.51/webapps
-
-```
-
-```bash
-cd /usr/local/apache-tomcat-8.5.51/webapps
-
-```
-
-```bash
-/usr/bin/open -a /System/Library/CoreServices/Finder.app .
-
-```
 
 ---
 
