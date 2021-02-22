@@ -4,12 +4,28 @@
 
 ## Table of Contents
 
+[Clone](#clone)
+
 [Git and Github](#git-and-github)
 
 [Tools](#tools)
 
 [Specific to tomn](#tomn)
 
+---
+
+# Clone
+
+---
+
+## Clone project
+
+```bash
+cd ~
+git clone https://github.com/tomnoland/Montag
+cd Montag
+
+```
 ---
 
 ## Push README
