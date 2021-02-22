@@ -78,7 +78,7 @@ docker rmi -f $(docker images -a -q)
 ```bash
 cd ~
 git clone https://github.com/tomnoland/Montag
-cd Tomcat-Docker
+cd Montag
 
 ```
 ---
