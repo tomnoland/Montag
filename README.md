@@ -56,37 +56,7 @@ docker exec -it my-tomcat-container /bin/sh
 docker rmi -f $(docker images -a -q)
 ```
 
----
 
-[Tomcat Web Application Manager](http://localhost:8081/manager/html)
-
-Login: tomcat4
-
-Passoword: s4cret
-
----
-
-## Tomcat - Start and Stop
-
-```bash
-/usr/local/apache-tomcat-8.5.51/bin/startup.sh&
-
-```
-
-```bash
-/usr/local/apache-tomcat-8.5.51/bin/shutdown.sh&
-
-```
-
-```bash
-/usr/local/apache-tomcat-8.5.51/bin/startup.sh ; tail -f /usr/local/apache-tomcat-8.5.51/logs/catalina.out
-
-```
-
-```bash
-pkill -9 -f tomcat
-
-```
 
 ---
 
@@ -145,7 +115,7 @@ cd /usr/local/apache-tomcat-8.5.51/webapps
 
 ```bash
 cd ~
-git clone https://github.com/tomnoland/Tomcat-Docker
+git clone https://github.com/tomnoland/Montag
 cd Tomcat-Docker
 
 ```
