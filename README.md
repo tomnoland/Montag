@@ -83,10 +83,11 @@ cd Montag
 ```
 ---
 
-## Hub - Create and Add Remote Repo
+## Add Remote Repo
 
 ```bash
-hub create
+
+PROJECT_NAME=Montag
 git remote add $PROJECT_NAME git@github.com:tomnoland/$PROJECT_NAME.git
 
 ```
